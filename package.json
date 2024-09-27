@@ -1,0 +1,37 @@
+{
+  "name": "@alitojs/utils",
+  "version": "0.0.1",
+  "description": "@alitojs/utils",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "father-build",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "ean",
+    "alita"
+  ],
+  "authors": [
+    "hang319 <437132124@qq.com> (https://github.com/hang319)"
+  ],
+  "license": "MIT",
+  "bugs": "",
+  "homepage": "",
+  "publishConfig": {
+    "prettier": "2.1.2",
+    "access": "public"
+  },
+  "devDependencies": {
+    "father-build": "^1.19.5"
+  }
+}
