@@ -11,13 +11,14 @@
  */
 export default (fn: Function , delay: number = 100): Function => {
   let timer: any = null;
+  const that = this;
   return function () {
     let args = arguments;
     if (timer) {
       clearTimeout(timer);
     }
     timer = setTimeout(() => {
-      fn.apply(this, args);
+      fn.apply(that, args);
     }, delay);
   };
 };

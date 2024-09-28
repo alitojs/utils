@@ -9,5 +9,6 @@ export default defineConfig({
       github: 'https://github.com/alitojs/utils',
     },
   },
+  outputPath: 'docs-dist',
   sitemap: { hostname: 'https://github.com/alitojs/utils' },
 });

@@ -14,7 +14,7 @@ const entryExports = {
 };
 
 // Static content
-const pkg = {"name":"@alitojs/utils","description":"@alitojs/utils","version":"0.0.1","license":"MIT","repository":{"type":"git","url":"https://github.com/alitojs/utils"},"authors":["hang319 <437132124@qq.com> (https://github.com/hang319)"]};
+const pkg = {"name":"@alitojs/utils","description":"@alitojs/utils","version":"0.0.2","license":"MIT","repository":{"type":"git","url":"https://github.com/alitojs/utils"},"authors":["hang319 <437132124@qq.com> (https://github.com/hang319)"]};
 const historyType = "browser";
 const hostname = "https://github.com/alitojs/utils";
 const themeConfig = {"footer":"Copyright © 2024 | Powered by <a href=\"https://d.umijs.org\" target=\"_blank\" rel=\"noreferrer\">dumi</a>","prefersColor":{"default":"light","switch":true},"nprogress":true,"lastUpdated":true,"name":"@alitojs","logo":"https://avatars.githubusercontent.com/u/49136103?s=200&v=4","socialLinks":{"github":"https://github.com/alitojs/utils"},"sourceLink":"https://github.com/alitojs/utils/tree/main/{fileName}#L{line}","editLink":"https://github.com/alitojs/utils/edit/main/{filename}"};
