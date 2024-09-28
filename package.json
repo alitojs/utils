@@ -11,11 +11,14 @@
   ],
   "scripts": {
     "build": "father-build",
+    "start": "dumi dev",
+    "dumi:build": "dumi build",
+    "prepare": "husky install && dumi setup",
     "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alitojs/utils"
   },
   "keywords": [
     "ean",
@@ -31,7 +34,27 @@
     "prettier": "2.1.2",
     "access": "public"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "node scripts/verifyCommit.js"
+  },
+  "lint-staged": {
+    "*.{md,json,js,ts}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
   "devDependencies": {
-    "father-build": "^1.19.5"
+    "father-build": "^1.19.5",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "dumi": "2.4.12",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
   }
 }

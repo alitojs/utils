@@ -21,5 +21,9 @@ export default (value: any) => {
     return true;
   }
 
+  if (typeof value === 'number' && value == 0) {
+    return false;
+  }
+
   return false;
 };

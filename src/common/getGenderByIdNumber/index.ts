@@ -13,7 +13,7 @@ export default (idNumber: string) => {
       // 一代身份证号码长度为15位（第15位为性别代码）
       genderCode = idNumber.charAt(14);
     }
-    if (genderCode && !isNaN(genderCode)) {
+    if (genderCode && !isNaN(parseInt(genderCode))) {
       // 两代身份证号码的性别代码都为男奇女偶
       if (parseInt(genderCode) % 2 == 0) {
         return '2';

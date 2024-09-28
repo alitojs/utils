@@ -4,12 +4,21 @@ module.exports = {
   useTabs: false,
   semi: true,
   singleQuote: true,
-  trailingComma: 'none',
+  trailingComma: 'all',
   bracketSpacing: true,
   bracketSameLine: true,
   arrowParens: 'always',
   htmlWhitespaceSensitivity: 'ignore',
   vueIndentScriptAndStyle: false,
   singleAttributePerLine: false,
-  endOfLine: 'auto'
+  endOfLine: 'auto',
+  proseWrap: 'never',
+  overrides: [
+    {
+      files: '*.md',
+      options: {
+        proseWrap: 'preserve',
+      },
+    },
+  ],
 };
