@@ -3,6 +3,7 @@ nav: 工具类
 title: 生成随机数
 group:
   title: 通用
+  order: 1
 ---
 
 #### 生成随机数

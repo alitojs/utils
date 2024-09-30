@@ -2,7 +2,8 @@
 nav: 工具类
 title: 判空
 group:
-  title: 通用
+  title: 判断
+  order: 2
 ---
 
 #### 对数据进行判空处理

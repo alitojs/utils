@@ -3,6 +3,7 @@ nav: 工具类
 title: 身份证号脱敏
 group:
   title: 脱敏
+  order: 2
 ---
 
 #### 身份证号脱敏
