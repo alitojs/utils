@@ -6,7 +6,7 @@ group:
   order: 1
 ---
 
-#### 生成随机数
+#### 邮箱校验
 
 ```js
 import { isEmail } from '@alitojs/utils';
@@ -19,4 +19,4 @@ console.log(isEmail('437132124')); // false
 
 | 参数   | 说明     | 类型   | 默认值 | 是否必填 |
 | ------ | -------- | ------ | ------ | -------- |
-| 参数 1 | 邮箱地址 | string |   -     | 否       |
+| 参数 1 | 邮箱地址 | string |   -     | 是       |

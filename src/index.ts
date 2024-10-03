@@ -7,6 +7,8 @@ export { default as simpleDebounce } from './common/simpleDebounce'; // 简单�
 export { default as getGenderByIdNumber } from './common/getGenderByIdNumber'; // 按身份证号码获取性别
 export { default as getAgeByIdNumber } from './common/getAgeByIdNumber'; // 根据身份证获取年龄
 export { default as underLine2CamelCase } from './common/underLineToCamelCase'; // 下划线转驼峰
+export { default as getIEVersion } from './common/getIEVersion'; // 下划线转驼峰
+export { default as convertCurrency } from './common/convertCurrency'; // 下划线转驼峰
 
 // 脱敏
 export { default as getSecretPhone } from './desensitize/getSecretPhone'; // 手机号脱敏
@@ -23,3 +25,6 @@ export { default as gcj02toWgs84 } from './map/gcjToWgs'; // GCJ02(火星坐标�
 // 判断
 export { default as isEmptyValue } from './check/isEmptyValue'; // 对数据进行判空处理
 export { default as isEmail } from './check/isEmail'; // 对数据进行判空处理
+export { default as isMobile } from './check/isMobile'; // 对数据进行判空处理
+export { default as isPhone } from './check/isPhone'; // 对数据进行判空处理
+export { default as isURL } from './check/isURL'; // 对数据进行判空处理
