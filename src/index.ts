@@ -28,3 +28,7 @@ export { default as isEmail } from './check/isEmail'; // 对数据进行判空�
 export { default as isMobile } from './check/isMobile'; // 对数据进行判空处理
 export { default as isPhone } from './check/isPhone'; // 对数据进行判空处理
 export { default as isURL } from './check/isURL'; // 对数据进行判空处理
+
+// 文件处理
+export { default as fileToBase } from './file/fileToBase'; // 将图片转化为 base64 的格式
+export { default as dataUrlToFile } from './file/dataUrlToFile'; // 将 url 转 file
