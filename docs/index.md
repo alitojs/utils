@@ -2,7 +2,7 @@
 title: alitojs/utils
 hero:
   title: utils-doc
-  description: 通用工具类@0.0.4
+  description: 通用工具类@0.0.5
   actions:
     - text: 开始
       link: /common/get-random
@@ -21,5 +21,5 @@ features:
 ## 快速使用
 
 ```bath
-yarn add @arosejs/utils
+yarn add @alitojs/utils
 ```
