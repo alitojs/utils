@@ -17,6 +17,8 @@ export { default as getSecretName } from './desensitize/getSecretName'; // 姓�
 
 // 时间
 export { default as getDateRegion } from './time/getDateRegion'; // 得到两个日期之间的天数 YYYY-MM-DD - YYYY-MM-DD
+export { default as minutesToTime } from './time/minutesToTime'; // 得到两个日期之间的天数 YYYY-MM-DD - YYYY-MM-DD
+export { default as timeToMinutes } from './time/timeToMinutes'; // 得到两个日期之间的天数 YYYY-MM-DD - YYYY-MM-DD
 
 // 地图
 export { default as wgs84ToGcj02 } from './map/wgsToGcj'; // GCJ02(火星坐标系) 转GPS84

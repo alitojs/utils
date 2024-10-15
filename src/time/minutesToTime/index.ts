@@ -1,5 +1,5 @@
 /**
- * 得到两个日期之间的天数 YYYY-MM-DD - YYYY-MM-DD
+ * 分钟数转时间
  */
 export default (minutes: string | number) => {
   if (!minutes || minutes == null) {
