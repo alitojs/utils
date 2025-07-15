@@ -1,6 +1,6 @@
 ---
-nav: web组件
 title: 人员卡片
+nav: web组件
 group:
   title: 通用
 ---
@@ -8,6 +8,10 @@ group:
 #### 人员卡片
 
 ![img](./img/personImg.png)
+
+#### 组件路径
+
+`@/components/ecpp/PersonMsg`
 
 #### API
 
