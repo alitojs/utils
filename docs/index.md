@@ -2,7 +2,7 @@
 title: alitojs/utils
 hero:
   title: utils-doc
-  description: 通用工具类@0.0.6
+  description: 通用工具类@0.0.8
   actions:
     - text: 开始
       link: /common/get-random
