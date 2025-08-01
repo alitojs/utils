@@ -11,6 +11,8 @@ group:
 
 #### 组件路径
 
+author: 陈书航
+
 > **组件已经全局注册过，无须再次引入**
 
 `@/components/eqds/uni/uni-data-picker-search/uni-data-picker-search`

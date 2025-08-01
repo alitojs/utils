@@ -7,6 +7,8 @@ group:
 
 #### 分页列表
 
+author: 陈书航
+
 ` <z-paging ref="paging" v-model="dataList" @query="queryList"></z-paging>`
 
 #### 组件路径

@@ -11,6 +11,8 @@ group:
 
 #### 组件路径
 
+author: 陈书航
+
 `@/pagesEcpp/components/UploadImage`
 
 #### API

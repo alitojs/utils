@@ -7,6 +7,8 @@ group:
 
 #### 图片预览
 
+author: 陈书航
+
 > 图片点击后支持弹框看大图，并可支持放大镜效果和框选查询对应的人员数据
 
 ![img](./img/imgPreviewImg.png)

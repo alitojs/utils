@@ -7,6 +7,8 @@ group:
 
 #### 颜色选择
 
+author: 陈书航
+
 ![img](./img/jColorPickerImg.png)
 
 #### 组件路径

@@ -7,6 +7,8 @@ group:
 
 #### 通用导航栏
 
+author: 陈书航
+
 ![img](./img/navImg.png)
 
 #### 组件路径

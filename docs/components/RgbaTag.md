@@ -7,6 +7,8 @@ group:
 
 #### 多 Tag 渲染
 
+author: 陈书航
+
 ![img](./img/rgbaTagImg.png)
 
 #### 组件路径

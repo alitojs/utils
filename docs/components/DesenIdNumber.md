@@ -7,6 +7,8 @@ group:
 
 #### 人员卡片
 
+author: 陈书航
+
 ![img](./img/desenIdNumber.png)
 
 #### 组件路径
