@@ -9,7 +9,7 @@ group:
 
 author: 陈书航
 
-![img](./img/jSelectDepartImg.png)
+![img](./img/jSelectUserByDepImg.png)
 
 #### 组件路径
 
