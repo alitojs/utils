@@ -9,6 +9,7 @@ export { default as getAgeByIdNumber } from './common/getAgeByIdNumber'; // 根�
 export { default as underLine2CamelCase } from './common/underLineToCamelCase'; // 下划线转驼峰
 export { default as getIEVersion } from './common/getIEVersion'; // 下划线转驼峰
 export { default as convertCurrency } from './common/convertCurrency'; // 下划线转驼峰
+export { default as filterObj } from './common/filterObj'; // 过滤对象中为空的属性
 
 // 脱敏
 export { default as getSecretPhone } from './desensitize/getSecretPhone'; // 手机号脱敏
